@@ -1,0 +1,44 @@
+﻿2014/03/09 0:34:58 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\atsuhiro\Documents\Visual Studio 2010\Projects\Hosi_wo_miruhito\Hosi_wo_miruhito\Hosi_wo_miruhito.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\Hosi_wo_miruhito.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\DxLib /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Manu.cpp
+         Manu.cpp
+     1>c:\users\atsuhiro\documents\visual studio 2010\projects\hosi_wo_miruhito\hosi_wo_miruhito\manu.cpp(177): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\atsuhiro\documents\visual studio 2010\projects\hosi_wo_miruhito\hosi_wo_miruhito\manu.cpp(456): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\atsuhiro\documents\visual studio 2010\projects\hosi_wo_miruhito\hosi_wo_miruhito\manu.cpp(563): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\atsuhiro\documents\visual studio 2010\projects\hosi_wo_miruhito\hosi_wo_miruhito\manu.cpp(962): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\atsuhiro\documents\visual studio 2010\projects\hosi_wo_miruhito\hosi_wo_miruhito\manu.cpp(979): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\atsuhiro\documents\visual studio 2010\projects\hosi_wo_miruhito\hosi_wo_miruhito\manu.cpp(995): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\atsuhiro\Documents\Visual Studio 2010\Projects\Hosi_wo_miruhito\Debug\Hosi_wo_miruhito.exe" /NOLOGO /LIBPATH:C:\DxLib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Hosi_wo_miruhito.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\atsuhiro\Documents\Visual Studio 2010\Projects\Hosi_wo_miruhito\Debug\Hosi_wo_miruhito.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\atsuhiro\Documents\Visual Studio 2010\Projects\Hosi_wo_miruhito\Debug\Hosi_wo_miruhito.lib" /MACHINE:X86 Debug\BaseScene.obj
+         Debug\BaseStage.obj
+         Debug\Battle.obj
+         Debug\Deusu.obj
+         Debug\Enemy.obj
+         Debug\Field.obj
+         Debug\Game.obj
+         Debug\ISceneChanger.obj
+         Debug\Key.obj
+         Debug\Main.obj
+         Debug\Mamusu.obj
+         Debug\Manu.obj
+         Debug\Mobu.obj
+         Debug\Op.obj
+         Debug\Player.obj
+         Debug\SceneMgr.obj
+         Debug\StageMgr.obj
+         Debug\StartStage.obj
+         LINK : 前回のインクリメンタル リンクで C:\Users\atsuhiro\Documents\Visual Studio 2010\Projects\Hosi_wo_miruhito\Debug\Hosi_wo_miruhito.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+         Hosi_wo_miruhito.vcxproj -> C:\Users\atsuhiro\Documents\Visual Studio 2010\Projects\Hosi_wo_miruhito\Debug\Hosi_wo_miruhito.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\atsuhiro\Documents\Visual Studio 2010\Projects\Hosi_wo_miruhito\Debug\Hosi_wo_miruhito.exe;#1" /manifest Debug\Hosi_wo_miruhito.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Debug\Hosi_wo_miruhito.unsuccessfulbuild" を削除しています。
+         "Debug\Hosi_wo_miruhito.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\atsuhiro\Documents\Visual Studio 2010\Projects\Hosi_wo_miruhito\Hosi_wo_miruhito\Hosi_wo_miruhito.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:08.04

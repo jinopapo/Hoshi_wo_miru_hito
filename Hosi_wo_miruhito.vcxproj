@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{776FB92C-C1BD-4CC0-AF71-FF57E0865F7D}</ProjectGuid>
+    <RootNamespace>Hosi_wo_miruhito</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\DxLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseScene.cpp" />
+    <ClCompile Include="BaseStage.cpp" />
+    <ClCompile Include="Battle.cpp" />
+    <ClCompile Include="Deusu.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ISceneChanger.cpp" />
+    <ClCompile Include="Key.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mamusu.cpp" />
+    <ClCompile Include="Manu.cpp" />
+    <ClCompile Include="Mobu.cpp" />
+    <ClCompile Include="Op.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="StageMgr.cpp" />
+    <ClCompile Include="StartStage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="batke.png" />
+    <None Include="Battle.png" />
+    <None Include="battle1.png" />
+    <None Include="battle2.png" />
+    <None Include="battle3.png" />
+    <None Include="battle4.png" />
+    <None Include="beruzebabu.png" />
+    <None Include="burokku.png" />
+    <None Include="burokku1.png" />
+    <None Include="burokku2.png" />
+    <None Include="Dead.png" />
+    <None Include="deusu.csv" />
+    <None Include="field1.csv" />
+    <None Include="hatti.png" />
+    <None Include="hatti1.png" />
+    <None Include="hoge.png" />
+    <None Include="hurakka.png" />
+    <None Include="janku.png" />
+    <None Include="key.png" />
+    <None Include="ki.png" />
+    <None Include="mamusu.csv" />
+    <None Include="mati.png" />
+    <None Include="menu1.png" />
+    <None Include="menu2.png" />
+    <None Include="menu3.png" />
+    <None Include="menu4.png" />
+    <None Include="menu5.png" />
+    <None Include="Menu6.png" />
+    <None Include="menu7.png" />
+    <None Include="menu8.png" />
+    <None Include="menu9.png" />
+    <None Include="minami.png" />
+    <None Include="miti.png" />
+    <None Include="miti1.png" />
+    <None Include="OP.png" />
+    <None Include="ramuji.png" />
+    <None Include="saramanndo.png" />
+    <None Include="siba.png" />
+    <None Include="sougenn.png" />
+    <None Include="tairu.png" />
+    <None Include="tuti.png" />
+    <None Include="umi.png" />
+    <None Include="umiaka.png" />
+    <None Include="yougann.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseScene.h" />
+    <ClInclude Include="BaseStage.h" />
+    <ClInclude Include="Battle.h" />
+    <ClInclude Include="deusu.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="ISceneChanger.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="Mamusu.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Mobu.h" />
+    <ClInclude Include="Op.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="StageMgr.h" />
+    <ClInclude Include="StartStage.h" />
+    <ClInclude Include="Task.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
